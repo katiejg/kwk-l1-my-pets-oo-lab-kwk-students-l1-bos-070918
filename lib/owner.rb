@@ -25,3 +25,8 @@ class Owner
     "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end
 end
+
+katie = Owner.new
+katie.buy_fish(bob)
+katie.list_pets
+
