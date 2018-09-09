@@ -26,7 +26,7 @@ class Owner
   end
 end
 
-katie = Owner.new
+katie = Owner.new(human)
 katie.buy_fish(bob)
 katie.list_pets
 
