@@ -27,6 +27,6 @@ class Owner
 end
 
 katie = Owner.new("human")
-katie.buy_fish("bob")
-katie.list_pets
+puts katie.buy_fish("bob")
+puts katie.list_pets
 
